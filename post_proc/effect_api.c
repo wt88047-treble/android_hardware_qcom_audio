@@ -55,11 +55,13 @@
 #endif
 
 #include <stdbool.h>
-#include <cutils/log.h>
+#include <log/log.h>
 #include <tinyalsa/asoundlib.h>
 #include <sound/audio_effects.h>
 #include <sound/devdep_params.h>
 #include <linux/msm_audio.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
 #include <errno.h>
 #include "effect_api.h"
 
