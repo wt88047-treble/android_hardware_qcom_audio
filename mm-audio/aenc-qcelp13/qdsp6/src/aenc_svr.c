@@ -30,6 +30,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <string.h>
 
 #include <fcntl.h>
+#include <unistd.h>
 #include <errno.h>
 
 #include <aenc_svr.h>

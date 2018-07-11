@@ -25,6 +25,8 @@
 #include <math.h>
 #include <log/log.h>
 
+#include <unistd.h>
+#include <sys/ioctl.h>
 #include "audio_hw.h"
 #include "platform.h"
 #include "platform_api.h"
